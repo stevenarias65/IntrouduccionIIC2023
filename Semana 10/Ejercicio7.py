@@ -8,7 +8,7 @@ inventario = {
     "pam2" : {
         "cantidad" : 20,
         "color" : "Verde",
-        "Talla" : "M"
+        "Talla" : ["m","s","l"]
     }
 }
 
@@ -21,6 +21,8 @@ codigo = input()
 color = input()
 Talla = input()
 Cantidad = input()
+
+
 
 inventario[codigo] = {"cantidad":Cantidad,
                       "color": color,
